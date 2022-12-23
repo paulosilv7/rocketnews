@@ -6,48 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RocketNews</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./assets/send.svg" type="image/x-icon">
+
+    
     </head>
 
 
     <body>
-        <div id="background"></div>
-        
-        <div id="lado-a">
-            <div id="logo">
-                <a href=""><img src="./assets/logo.svg" alt=""></a>
-            </div>
 
-            <div id="text">
-                <h2>atualize ideias e informações em 5 minutos.</h2>
-                <h3>tudo que você precisa saber para começar seu dia bem e informado</h3>
-                <p>noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.
-                    <br> perfeito para se preparar para codar ☕</p>
-            </div>
-        </div>
+        <article id="contents">
 
-        <div id="legend">Insira seu email:</div>
+            <section id="lado-a">
+                <div id="logo">
+                    <a href=""><img src="./assets/logo.svg" alt=""></a>
+                </div>
 
-        <div id="email">
+                <div id="text">
+                    <h2>atualize ideias e informações em 5 minutos.</h2>
+                    <h3>tudo que você precisa saber para começar seu dia bem e informado</h3>
+                    <p>noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.
+                        <br> perfeito para se preparar para codar ☕</p>
+                </div>
+            </section>
 
-            <div id="boxgreen"></div>
+            <div id="legend">Insira seu email:</div>
 
-            <form action="">
-                <input type="email" name="box-email" id="box" placeholder="oi@rocketseat.com">
-            </form>
+            <section id="email">
 
-            <button type="button" id="boxpurple">
-                <img src="./assets/send.png" alt="Botão">
-            </button>
-            
-        </div>
+                <div id="boxgreen"></div>
 
+                <form action="" id="formulary">
+                    <input type="email" name="box-email" id="box" placeholder="oi@rocketseat.com" maxlength="70" minlength="8" required>
+                
+                    <button type="reset" id="boxpurple" form="formulary">
+                        <img src="./assets/send.png" alt="Botão">
+                    </button>
+                </form>
+            </section>
 
-        
-        <div id="more">
-            <h4>deixe-me ler primeiro</h4>
-            <img src="./assets/arrow-right.png" alt="">
-        </div>
-
+        </article>
 
     </body>
 </html>
